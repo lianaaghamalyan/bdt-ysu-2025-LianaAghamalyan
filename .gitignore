@@ -1,8 +1,15 @@
 # macOS system files
 .DS_Store
 
-# JetBrains / PyCharm project settings
+# PyCharm project settings
 .idea/
 
-# Jupyter notebook checkpoints
+# Jupyter auto-generated folders
 .ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data tracked by Git LFS (still fine)
+data/*.csv
